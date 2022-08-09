@@ -51,6 +51,49 @@
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/8e4ad95b91.js" crossorigin="anonymous"></script>
+  <script type="module">
+
+    // Import the functions you need from the SDKs you need
+
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js";
+
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js";
+
+    // TODO: Add SDKs for Firebase products that you want to use
+
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+
+    // Your web app's Firebase configuration
+
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+    const firebaseConfig = {
+
+      apiKey: "AIzaSyAG-ltjr-gck2yLJ8V0bIA_BaNRML634g8",
+
+      authDomain: "portifoliomr-a7994.firebaseapp.com",
+
+      projectId: "portifoliomr-a7994",
+
+      storageBucket: "portifoliomr-a7994.appspot.com",
+
+      messagingSenderId: "391232268345",
+
+      appId: "1:391232268345:web:99d37f1cf7c8f3efe445e8",
+
+      measurementId: "G-TM0J82YE5D"
+
+    };
+
+
+    // Initialize Firebase
+
+    const app = initializeApp(firebaseConfig);
+
+    const analytics = getAnalytics(app);
+
+  </script>
 </body>
 
 </html>

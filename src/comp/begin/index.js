@@ -3,6 +3,7 @@ import Navbar from '../navbar/';
 import beginSvg from "../../assets/svg/begin.svg"
 import About from "../about"
 import Experience from "../experience"
+import Work from "../work"
 
 export default function Begin() {
     return (
@@ -51,6 +52,7 @@ export default function Begin() {
             </section>
             <About />
             <Experience/>
+            <Work/>
         </main>
     );
 }
