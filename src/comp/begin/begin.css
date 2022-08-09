@@ -1,0 +1,67 @@
+ 
+
+.Apr h1 {
+    font-size: var(--fs-p);
+    color: var(--azul);
+}
+
+.name h2 {
+    font-size: var(--fs-g);
+    color: var(--cinza-claro);
+    font-weight: bold;
+}
+
+.adjective h3 {
+    font-size: var(--fs-g);
+    color: var(--cinza-escuro);
+    font-weight: bold;
+}
+
+.apresentation p {
+    font-size: var(--fs-p);
+    color: var(--cinza-escuro);
+}
+
+.code {
+    width: 90%;
+    height: 130px;
+    border-radius: var(--border-radius);
+    background-color: #1F2526;
+    box-shadow: var(--box-shadow);
+
+}
+
+.code p {
+    padding: 10px 0 0 20px;
+    font-size: var(--fs-p);
+    color: #757A7E;
+}
+
+.code span{
+    color: var(--azul);
+}
+
+
+.input-begin {
+    display: flex;
+    align-items: center;
+}
+
+.input-begin p {
+    padding-top: 0;
+    color: #228FC8;
+}
+
+.input-begin input {
+    height: 25px;
+    width: 50%;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+hr {
+    padding: 0 !important;
+    color: #757A7E;
+}

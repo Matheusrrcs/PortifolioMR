@@ -1,0 +1,37 @@
+.navbar {
+    padding: 20px 50px;
+
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: right;
+    font-size: var(--fs-p);
+
+}
+
+.navbar-brand {
+    font-family: var(--font-logo);
+    text-transform: uppercase;
+    color: var(--azul);
+    font-size: var(--fs-m);
+    letter-spacing: -3px;
+}
+
+.nav-item {
+    padding: 0 10px 0 0;
+
+}
+
+.nav-link {
+    color: var(--cinza-claro);
+
+}
+
+.nav-link.active {
+    color: var(--azul) !important;
+}
+
+.nav-link:hover {
+    color: var(--azul);
+}

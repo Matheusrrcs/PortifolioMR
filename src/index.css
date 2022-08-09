@@ -1,13 +1,63 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: Anurati;
+  src: url(./assets/fonts/Anurati-Regular.otf);
+}
+
+:root {
+  --azul: #50B7C5;
+  --cinza-claro: #CCD6F6;
+  --cinza-escuro: #8892B0;
+  --bgk-dark: #161717;
+  --bgk-claro: #161A1A;
+  --box-shadow: -1px 5px 10px 1px rgba(0, 0, 0, 0.288);
+  --font-family: 'Poppins', sans-serif;
+  --font-logo: "Anurati", sans-serif;
+  --fs-p: 16px;
+  --fs-xm: 20px;
+  --fs-m: 25px;
+  --fs-g: 50px;
+  --border-radius: 5px;
+}
+
+html,
+#root,
+main {
+  width: 100%;
+  height: 100%;
+}
+
+
+body {
+
+  font-family: var(--font-family);
+  width: 100%;
+  background-color: var(--bgk-dark);
+  width: 100%;
+  height: auto;
+
+}
+
+.button {
+  color: var(--azul) !important;
+  background-color: transparent;
+  border: 1px solid var(--azul);
+  border-radius: var(--border-radius);
+  padding: 0.75rem 1rem;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.tec-color {
+  color: var(--azul);
+}
+
+.pt {
+  padding: 150px 0 0;
 }

@@ -1,23 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import github from "./assets/svg/github.svg";
+import linkedin from "./assets/svg/linkedin.svg";
+import codepen from "./assets/svg/codepen.svg";
+
+import Begin from './comp/begin/';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Begin />
+
+      <div className="icons">
+        <ul>
+          <li>
+            <a href="https://github.com/Matheusrrcs" target="_blank">
+              <img src={github} />
+            </a>
+
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/matheusrrcs/" target="_blank">
+              <img src={linkedin} />
+            </a>
+
+          </li>
+          <li>
+            <a href="https://codepen.io/matheusrrcs/pens/public" target="_blank">
+              <img src={codepen} />
+            </a>
+
+          </li>
+        </ul>
+      </div>
+
+
     </div>
   );
 }
