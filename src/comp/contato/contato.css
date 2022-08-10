@@ -1,0 +1,30 @@
+.contato {
+    background-color: var(--verde);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer.text{
+    background-color: var(--verde);
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.contato .title::after {
+    display: none;
+}
+
+
+.contato .title {
+    display: flex;
+    justify-content: center;
+}
+
+.contato .text {
+    padding: 30px 320px;
+}

@@ -4,6 +4,8 @@ import beginSvg from "../../assets/svg/begin.svg"
 import About from "../about"
 import Experience from "../experience"
 import Work from "../work"
+import Projects from "../projects";
+import Contato from "../contato";
 
 export default function Begin() {
     return (
@@ -51,8 +53,14 @@ export default function Begin() {
                 </div>
             </section>
             <About />
-            <Experience/>
-            <Work/>
+            <Experience />
+            <Work />
+            <Projects />
+            <Contato />
+
+            <footer className="text">
+                <small>Projetado e construído por Matheus Rosario</small>
+            </footer>
         </main>
     );
 }

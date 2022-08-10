@@ -12,9 +12,11 @@
   --azul: #50B7C5;
   --cinza-claro: #CCD6F6;
   --cinza-escuro: #8892B0;
+  --verde: #172225;
   --bgk-dark: #161717;
   --bgk-claro: #161A1A;
   --box-shadow: -1px 5px 10px 1px rgba(0, 0, 0, 0.288);
+  --box-shadow-azul: 0 0 30px 1px var(--azul);
   --font-family: 'Poppins', sans-serif;
   --font-logo: "Anurati", sans-serif;
   --fs-p: 16px;
@@ -60,4 +62,12 @@ body {
 
 .pt {
   padding: 150px 0 0;
+}
+
+.subtitle h2,
+.subtitle h3,.subtitle h4 ,.subtitle h5, .subtitle i  {
+    font-size: var(--fs-xm);
+    font-weight: bold;
+    color: var(--cinza-claro);
+
 }

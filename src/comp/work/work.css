@@ -1,3 +1,73 @@
-.work{
-    background:linear-gradient( var(--bgk-claro),#172225);
+.work {
+    background: linear-gradient(var(--bgk-claro),var(--verde));
+
+}
+
+.work .row {
+    justify-content: center;
+}
+
+
+.work .title {
+    justify-content: center;
+
+}
+
+.work .subtitle h2 {
+    align-content: end;
+}
+
+
+.work-svg {
+    max-width: 450px;
+}
+
+.card-work {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+
+    flex-direction: column;
+
+    padding: 30px 0;
+}
+
+.card-work:last-child {
+    align-items: end;
+
+}
+
+
+
+.tec-list ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.tec-list ul li {
+    padding-left: 10px;
+
+}
+
+.left .subtitle,
+.left .text,
+.left ul {
+    padding-left: 4rem;
+}
+
+.left .button {
+    margin-left: 4rem;
+}
+
+.card-work.right {
+    align-items: start;
+}
+
+.card-work.right.txt {
+    align-items: end;
+}
+
+.card-work.txt {
+    justify-content: center;
 }
