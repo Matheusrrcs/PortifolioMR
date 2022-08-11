@@ -10,8 +10,8 @@ export default function Projects() {
       </div>
 
 
-      <div className="container pt">
-        <div className="row">
+      <div className="container">
+        <div className="row body-projects">
           <div className="col-lg-4 card-projects">
             <div className="group-text">
               <header>
@@ -64,7 +64,7 @@ export default function Projects() {
                   <p>Uma simples galeria de fotos para um casamento.</p>
                 </div>
               </header>
-              <footer>
+              <footer  >
 
                 <div className="tec-list">
                   <ul className="tec-color">
@@ -82,6 +82,7 @@ export default function Projects() {
 
           </div>
 
+  
           
 
         </div>

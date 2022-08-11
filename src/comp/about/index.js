@@ -1,6 +1,6 @@
 import "./about.css"
-import tec from "../../assets/svg/tec.svg"  
-import tecMais from "../../assets/svg/tecMais.svg"  
+import tec from "../../assets/svg/tec.svg"
+import tecMais from "../../assets/svg/tecMais.svg"
 
 export default function About() {
     return (
@@ -10,8 +10,8 @@ export default function About() {
                     <div className="col-lg-6">
                         <img id="svg-about" class="img-fluid" src={tec} alt="imagem em svg da experiencia" />
 
-                        <div className="row p-5">
-                            <div className="col-lg-6 align-self-center  ">
+                        <div className="row body-card-about">
+                            <div className="col-lg-6 col-md-6 align-self-center  card-about">
                                 <div className="detalhes">
                                     <div className="container">
                                         <h2><i class="fa-brands fa-linkedin"></i> Mais detalhes</h2>
@@ -23,8 +23,8 @@ export default function About() {
                                 </div>
                             </div>
 
-                            <div className="col-lg-6 align-self-center">
-                            <img id="svg-tecMais" class="img-fluid" src={tecMais} alt="imagem em svg da experiencia" />
+                            <div className="col-lg-6 col-md-6 align-self-center card-about">
+                                <img id="svg-tecMais" class="img-fluid" src={tecMais} alt="imagem em svg da experiencia" />
                             </div>
                         </div>
 

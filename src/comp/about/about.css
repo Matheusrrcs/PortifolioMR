@@ -33,16 +33,21 @@
  .detalhes {
      width: 200px;
      height: 115px;
-     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
      position: relative;
-     background: linear-gradient(to right, #355F62, #305C58) ;
+     background: linear-gradient(to right, #355F62, #305C58);
      border-radius: 15px;
-    box-shadow: var(--box-shadow);
+     box-shadow: var(--box-shadow);
  }
 
- #svg-tecMais{
-    max-width: 200px;
+ #svg-tecMais {
+     max-width: 200px;
  }
+
  .detalhes h2 {
      font-size: var(--fs-xp);
      color: #fff;
@@ -51,11 +56,11 @@
 
  }
 
- .detalhes .button{
-        border: none;
-        background: linear-gradient(to right, #1BE2B6, #1DC8CE);
-        color: #175D57 !important;
-        text-transform: uppercase;
+ .detalhes .button {
+     border: none;
+     background: linear-gradient(to right, #1BE2B6, #1DC8CE);
+     color: #175D57 !important;
+     text-transform: uppercase;
  }
 
  .detalhes::after {
@@ -70,4 +75,40 @@
      top: -14px;
      left: 16px;
      background-color: #1D2F33;
+ }
+
+ .card-about {
+     display: flex;
+     justify-content: center;
+ }
+
+ .body-card-about {
+     padding: 3rem 3rem 0 3rem;
+ }
+
+ @media (max-width:991px) {
+
+
+     .body-card-about {
+         padding: 1rem 3rem 0 3rem;
+         flex-direction: row !important;
+     }
+
+     .about .row {
+         display: flex;
+         flex-direction: column-reverse;
+         justify-items: center;
+         align-items: center;
+     }
+
+     .title::after {
+         width: 40%;
+     }
+
+     .card-about {
+         padding: 10px;
+     }
+
+
+
  }

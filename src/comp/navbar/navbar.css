@@ -35,3 +35,252 @@
 .nav-link:hover {
     color: var(--azul);
 }
+
+.menu-body {
+    display: none;
+}
+
+
+@media(max-width:991px) {
+
+    .navbar {
+        padding: 20px 10px;
+
+    }
+
+    .nav-item:last-child {
+        margin-top: 20px;
+    }
+
+    .navbar .button {
+        margin: 10px 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .menu-trigger,
+    .close-trigger {
+        position: absolute;
+        top: 32px;
+        right: 20px;
+        display: block;
+        width: 42px;
+        height: 42px;
+        cursor: pointer;
+        z-index: 333;
+    }
+
+    .menu-trigger:hover .menu-trigger-bar:before,
+    .close-trigger:hover .menu-trigger-bar:before {
+        width: 100%;
+    }
+
+    .menu-trigger:hover .close-trigger-bar:before,
+    .close-trigger:hover .close-trigger-bar:before {
+        width: 100%;
+    }
+
+    .close-trigger {
+        z-index: 5;
+        top: 42px;
+    }
+
+    .menu-trigger-bar {
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: white;
+        margin-bottom: 6px;
+        transform: rotate(-45deg);
+        position: relative;
+    }
+
+    .menu-trigger-bar:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 0%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+        transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    }
+
+    .menu-trigger-bar.top {
+        width: 50%;
+    }
+
+    .menu-trigger-bar.top.active,
+    .menu-trigger-bar.middle.active,
+    .menu-trigger-bar.bottom.active {
+
+        transition: all 0.4s ease-in-out;
+        transition-delay: 0.1s;
+        transform: matrix(0.70711, -0.70711, 0.70711, 0.70711, 80, -80);
+
+    }
+
+    .menu-trigger-bar.bottom.active {
+        transition: all 0.4s ease-in-out;
+        transition-delay: 0.2s;
+    }
+
+    .menu-trigger-bar.middle.active {
+
+        transition: all 0.4s ease-in-out;
+        transition-delay: 0;
+    }
+
+    .menu-trigger-bar.middle:before {
+        left: auto;
+        right: 0;
+    }
+
+
+    .menu-trigger-bar.bottom,
+    .menu-trigger-bar.top,
+    .menu-trigger-bar.middle {
+
+        transition: all 0.4s ease-in-out;
+        transition-delay: 0.1s;
+    }
+
+    .menu-trigger-bar.middle {
+        transition: all 0.4s ease-in-out;
+        transition-delay: 0;
+    }
+
+    .menu-trigger-bar.bottom {
+        transition: all 0.4s ease-in-out;
+        transition-delay: 0.2s;
+    }
+
+    .menu-trigger-bar.top {
+        transition: all 0.4s ease-in-out;
+        transition-delay: 0.1s;
+    }
+
+    .menu-trigger-bar.bottom {
+        width: 50%;
+
+        margin-left: 50%;
+    }
+
+    .close-trigger-bar {
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: #ffffff;
+        position: relative;
+    }
+
+    .close-trigger-bar:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 0%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.2);
+        transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    }
+
+    /* botão de fechar  */
+
+    .close-trigger-bar.left {
+
+        transition: all 0.2s ease-in-out;
+        transform: translateX(100px) translateY(-100px) rotate(-45deg);
+    }
+
+
+
+    .close-trigger-bar.right {
+        transition: all 0.2s ease-in-out;
+        transform: translateX(-100px) translateY(-100px) rotate(45deg);
+        top: -3px;
+    }
+
+    /* animação do botão de fechar  */
+
+    .close-trigger-bar.right.active {
+        transition: all 0.4s ease-in-out;
+        transition-delay: 0.3s;
+        transform: matrix(0.70711, 0.70711, -0.70711, 0.70711, 0, 0);
+    }
+
+    .close-trigger-bar.left.active {
+        transition: all 0.4s ease-in-out;
+        transition-delay: 0.2s;
+        transform: matrix(0.70711, -0.70711, 0.70711, 0.70711, 0, 0);
+    }
+
+    .menu-body {
+
+        display: flex;
+        -moz-box-pack: center;
+        justify-content: center;
+        -moz-box-align: center;
+        align-items: center;
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+        padding: 50px 10px;
+        width: min(75vw, 400px);
+        height: 100vh;
+        outline: currentcolor none 0px;
+        background: linear-gradient(var(--verde), var(--bgk-dark));
+        box-shadow: -10px 0px 30px -15px var(--box-shadow);
+        z-index: 2;
+        transform: translateX(100vw);
+        visibility: hidden;
+        transition: var(--transition);
+    }
+
+    .menu-body.active {
+        transform: translateX(0vw);
+        visibility: visible;
+        transition: var(--transition);
+    }
+
+    .menu-list {
+        list-style: none;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .item-menu {
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
+      }
+
+    .item-menu:last-child {
+        padding-top: 10px;
+
+    }
+
+    .menu-list .button {
+        margin: 0;
+    }
+
+    .item {
+        text-decoration: none;
+        color: var(--cinza-claro);
+
+    }
+
+    .item:hover{
+        color: var(--azul);
+    }
+}

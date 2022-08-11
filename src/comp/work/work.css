@@ -1,5 +1,5 @@
 .work {
-    background: linear-gradient(var(--bgk-claro),var(--verde));
+    background: linear-gradient(var(--bgk-claro), var(--verde));
 
 }
 
@@ -70,4 +70,51 @@
 
 .card-work.txt {
     justify-content: center;
+}
+
+
+@media (max-width:991px) {
+
+    .work {
+        padding: 100px 10px 0 10px;
+    }
+
+    .work .title {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .work .title::after {
+        margin-top: 20px;
+    }
+
+    .card-work.right.txt {
+        align-items: start;
+
+    }
+
+    .text.right,
+    .text.left {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .work .subtitle,
+    .work .tec-color {
+        padding: 0 10px;
+    }
+
+    .tec-color li {
+        padding-left: 0 !important;
+        padding-right: 10px;
+    }
+
+    .work .button,
+    .left .button {
+        margin: 0 10px;
+    }
+
+    .work  .row.center {
+        flex-direction: column-reverse !important;
+    }
 }

@@ -1,15 +1,47 @@
 import "../navbar/navbar.css"
+import React, { useState } from 'react';
 
 export default function Experience() {
+
+
+  const [active, Setactive] = useState("");
+
+  function activeAnim() {
+
+    const body = document.getElementById("body");
+
+    if (active == "") {
+      Setactive("active");
+      body.classList.add("desfocus");
+    }
+    else {
+      Setactive("");
+      body.classList.remove("desfocus");
+    }
+  }
+
   return (
     <header>
 
       <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand" href="#">mrcs</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" type="button" onClick={() => { activeAnim() }}>
+
+
+            <span class="menu-trigger">
+              <i class={`menu-trigger-bar top ${active}`}></i>
+              <i class={`menu-trigger-bar middle ${active}`}></i>
+              <i class={`menu-trigger-bar  bottom ${active}`}></i>
+            </span>
+
+            <span class="close-trigger">
+              <i class={`close-trigger-bar left ${active}`} ></i>
+              <i class={`close-trigger-bar right ${active}`}></i>
+            </span>
+
           </button>
+
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
@@ -32,6 +64,30 @@ export default function Experience() {
           </div>
         </div>
       </nav>
+
+
+      <div className={`menu-body ${active}`}>
+        <ul className="menu-list">
+          <li className="item-menu">
+            <a className="item active" href="#">Sobre</a>
+          </li>
+          <li className="item-menu">
+            <a className="item" href="#">Experiencia</a>
+          </li>
+          <li className="item-menu">
+            <a className="item" href="#">Projetos</a>
+          </li>
+          <li className="item-menu">
+            <a className="item" href="#">Contato</a>
+          </li>
+          <li className="item-menu">
+            <a className="button" href="#">Resumo</a>
+          </li>
+        </ul>
+
+      </div>
+
+
 
     </header>
   );

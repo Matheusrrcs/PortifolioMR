@@ -7,6 +7,10 @@
     justify-content: space-between;
 
 }
+.body-contato{
+
+    justify-content: center;
+}
 
 footer.text{
     background-color: var(--verde);
@@ -26,5 +30,5 @@ footer.text{
 }
 
 .contato .text {
-    padding: 30px 320px;
+    
 }

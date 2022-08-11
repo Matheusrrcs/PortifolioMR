@@ -41,7 +41,7 @@ export default function work() {
 
         </div>
 
-        <div className="row">
+        <div className="row center">
           <div className="col-lg-5 card-work left txt">
             <div className="subtitle">
               <h4>Elojob Dream</h4>

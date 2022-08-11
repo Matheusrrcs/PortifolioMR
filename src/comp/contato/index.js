@@ -13,11 +13,19 @@ export default function Contato() {
           </h2>
         </div>
 
-        <div className="text ">
-          <p>
-            Estou interessado em oportunidades de trabalho. No entanto, se você tiver outra solicitação ou pergunta, não hesite em mandar um email.
-          </p>
+        <div className="container">
+          <div className="row body-contato">
+            <div className=" col-lg-5 col-md-6 col-sm-12">
+
+              <div className="text">
+                <p>
+                  Estou interessado em oportunidades de trabalho. No entanto, se você tiver outra solicitação ou pergunta, não hesite em mandar um email.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+
 
         <div className="group-btn">
           <a href="mailto:matheus-santana-msn@hotmail.com" className="button">Dizer oi</a>

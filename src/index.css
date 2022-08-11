@@ -15,6 +15,7 @@
   --verde: #172225;
   --bgk-dark: #161717;
   --bgk-claro: #161A1A;
+  --transition: all 0.45s cubic-bezier(0.645, 0.045, 0.355, 1);
   --box-shadow: -1px 5px 10px 1px rgba(0, 0, 0, 0.288);
   --box-shadow-azul: 0 0 30px 1px var(--azul);
   --font-family: 'Poppins', sans-serif;
@@ -22,11 +23,19 @@
   --fs-p: 16px;
   --fs-xm: 20px;
   --fs-m: 25px;
+  --fs-xg:35px;
   --fs-g: 50px;
   --border-radius: 5px;
 }
 
-html,
+html {
+  width: 100%;
+  height: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: var(--azul) var(--bgk-dark);
+}
+
+
 #root,
 main {
   width: 100%;
@@ -42,6 +51,10 @@ body {
   width: 100%;
   height: auto;
 
+}
+
+.desfocus {
+  overflow: hidden;
 }
 
 .button {
@@ -65,9 +78,18 @@ body {
 }
 
 .subtitle h2,
-.subtitle h3,.subtitle h4 ,.subtitle h5, .subtitle i  {
-    font-size: var(--fs-xm);
-    font-weight: bold;
-    color: var(--cinza-claro);
+.subtitle h3,
+.subtitle h4,
+.subtitle h5,
+.subtitle i {
+  font-size: var(--fs-xm);
+  font-weight: bold;
+  color: var(--cinza-claro);
 
 }
+
+@media (max-width:991px) {
+  .pt {
+    padding: 100px 0 0;
+  }
+  }

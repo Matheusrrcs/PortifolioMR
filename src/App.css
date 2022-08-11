@@ -47,3 +47,11 @@
     margin: 0px auto;
     background-color: var(--cinza-escuro);
 }
+
+
+@media (max-width:991px) {
+    .icons {
+        display: none;
+    }
+    
+}
