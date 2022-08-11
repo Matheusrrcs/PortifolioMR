@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5855fead.css",
-    "main.js": "/static/js/main.8a392d11.js",
+    "main.css": "/static/css/main.4de83b40.css",
+    "main.js": "/static/js/main.157797bf.js",
     "static/media/tecMais.svg": "/static/media/tecMais.7e3ffeb23a83bf23ee1171236bdfa00d.svg",
     "static/media/tec.svg": "/static/media/tec.0090e2d1d98c039acedfed9473e85052.svg",
     "static/media/moon.png": "/static/media/moon.37759490a163b26c6b3f.png",
@@ -14,11 +14,11 @@
     "static/media/github.svg": "/static/media/github.4571991fa8fb98c8c0d7aa5791c5b704.svg",
     "static/media/codepen.svg": "/static/media/codepen.8f685ff2c7f176e586a6deb005a338cf.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.9feebeb680021cec6f3218c778ff1be7.svg",
-    "main.5855fead.css.map": "/static/css/main.5855fead.css.map",
-    "main.8a392d11.js.map": "/static/js/main.8a392d11.js.map"
+    "main.4de83b40.css.map": "/static/css/main.4de83b40.css.map",
+    "main.157797bf.js.map": "/static/js/main.157797bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.5855fead.css",
-    "static/js/main.8a392d11.js"
+    "static/css/main.4de83b40.css",
+    "static/js/main.157797bf.js"
   ]
 }
