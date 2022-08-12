@@ -11,10 +11,10 @@ export default function Begin() {
     return (
 
         <main className="begin-body">
-            <header>
+       
                 <Navbar />
 
-            </header>
+         
 
             <main id="body-principal">
                 <section className="begin" id="begin">

@@ -1,10 +1,12 @@
 import "../navbar/navbar.css"
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import anime from 'animejs';
 
 export default function Experience() {
 
 
   const [active, Setactive] = useState("");
+
 
   function activeAnim() {
 
@@ -24,10 +26,56 @@ export default function Experience() {
     }
   }
 
+
+  useEffect(() => {
+
+    rolar();
+    anime.timeline({loop: false})
+    .add({
+      targets: '.navbar-brand',
+      scale: [0, 1],
+      duration: 1500,
+      elasticity: 600,
+      delay: (el, i) => 45 * (i+1)
+    }) 
+    
+  }, [])
+
+  function rolar() {
+
+    const navbar = document.getElementById("navbar");
+
+
+    window.onscroll = function (e) {
+
+      if (window.scrollY == 0) {
+        navbar.classList.add("scrollDefault")
+        navbar.classList.remove("scroll")
+        navbar.classList.remove("scrollUp")
+      }
+
+
+      else if (this.oldScroll > this.scrollY) {
+        navbar.classList.add("scrollUp")
+        navbar.classList.remove("scroll")
+        navbar.classList.remove("scrollDefault")
+      }
+      else {
+        navbar.classList.add("scroll")
+        navbar.classList.remove("scrollUp")
+        navbar.classList.remove("scrollDefault")
+      }
+      this.oldScroll = this.scrollY;
+    }
+
+
+  }
+
+
   return (
     <header>
 
-      <nav class={`navbar navbar-expand-lg fixed-top ${active}`}>
+      <nav class={`navbar navbar-expand-lg fixed-top ${active}`} id="navbar">
         <div class="container">
           <a class="navbar-brand" href="#">mrcs</a>
           <button class="navbar-toggler" type="button" onClick={() => { activeAnim() }}>
