@@ -33,7 +33,7 @@
     letter-spacing: -3px;
 }
 
-.navbar-brand:focus{
+.navbar-brand:focus,.navbar-brand:hover{
     color: var(--azul);
 }
 .nav-item {
