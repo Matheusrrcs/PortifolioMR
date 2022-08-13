@@ -23,7 +23,7 @@
   --fs-p: 16px;
   --fs-xm: 20px;
   --fs-m: 25px;
-  --fs-xg:35px;
+  --fs-xg: 35px;
   --fs-g: 50px;
   --border-radius: 5px;
 }
@@ -70,6 +70,10 @@ body {
   margin-left: 15px;
 }
 
+.button:hover {
+  background-color: var(--verde);
+}
+
 .tec-color {
   color: var(--azul);
 }
@@ -93,4 +97,4 @@ body {
   .pt {
     padding: 100px 0 0;
   }
-  }
+}

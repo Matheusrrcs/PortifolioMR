@@ -23,16 +23,15 @@
     transition: var(--transition);
 }
 
- .work-svg:hover  {
-    transform: rotate(45deg);
-    transition: var(--transition);
-} .work-svg.meio:hover  {
-    transform: rotate(-45deg);
+.work-svg:hover {
+    transform: scale(1.1);
     transition: var(--transition);
 }
 
 
- 
+
+
+
 
 .card-work {
     display: flex;

@@ -26,9 +26,14 @@
     list-style: none;
 }
 
+
 .icons ul li {
     margin: 30px 0 30px 0;
     cursor: pointer;
+}
+
+.icons ul li:hover {
+    transform: scale(1.1);
 }
 
 .icons ul::before {
@@ -62,4 +67,3 @@
     }
 
 }
- 

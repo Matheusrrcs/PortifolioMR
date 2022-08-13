@@ -19,6 +19,7 @@
 .group-text {
     margin: 20px;
     height: 80%;
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -49,6 +50,11 @@
     display: flex;
     padding-bottom: 5px;
     justify-content: space-between;
+}
+.subtitle i:hover{
+    
+  transform: scale(1.1);
+ color: var(--azul);
 }
 
 .tec-color {

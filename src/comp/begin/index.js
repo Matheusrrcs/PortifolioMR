@@ -6,19 +6,53 @@ import Experience from "../experience"
 import Work from "../work"
 import Projects from "../projects";
 import Contato from "../contato";
+import { useEffect, useState } from "react";
+import anime from "animejs";
 
 
 export default function Begin() {
 
+    const [valueInput, inputValues] = useState("");
+    useEffect(() => {
+
+
+ 
+        textInput();
+        const digit = anime.timeline({
+            loop: true,
+
+        });
+
+
+        digit.add({
+            targets: '.digit',
+            opacity: [0, 1],
+            duration: 1500,
+            delay: (el, i) => {
+                return 250 + 50 * i;
+            }
+        }
+
+        )
+
+    }, [])
+
+
+    function textInput() {
+        let text = document.getElementById('text-input');
+
+        text.addEventListener("click", () => {
+            document.querySelector('.digit').classList.add('d-none')
+
+
+        })
+    }
 
     return (
 
         <main className="begin-body" id="begin">
 
             <Navbar />
-
-
-
             <main id="body-principal">
                 <section className="begin" id="begin" >
                     <div className="container">
@@ -46,14 +80,31 @@ export default function Begin() {
                                         Digite <span>“SIM”</span> se quer saber mais sobre mim
                                     </p>
                                     <hr />
-                                    <div className="input-begin">
-                                        <p>
-                                            ./resposta -s : |
-                                        </p>
-                                        <input type="text"></input>
-                                    </div>
 
+                                    <div className={`input-begin ${valueInput.toLowerCase() == "sim" ? "correct" : "error"}`}>
+                                        <p>
+                                            ./resposta -s :
+                                        </p>
+                                        <span className="digit">|</span>
+
+                                        <input type="text" id="text-input" value={valueInput} onChange={(e) => {
+                                            inputValues(`${e.target.value}`)
+
+                                        }} />
+
+                                        <span className={`entrar ${valueInput.toLowerCase() == "sim" ? "correct" : ""}`} onClick={(e) => {
+                                            if (valueInput.toLowerCase() == "sim") {
+                                                e.preventDefault();
+                                                window.location.href = '/#about'
+                                            }
+                                        }}>
+
+                                            <i class="fa-solid fa-circle-arrow-right"></i>
+                                        </span>
+                                    </div>
                                 </div>
+
+
                             </div>
                             <div className="col-lg-6 align-self-center fade-up-text" >
                                 <img id="svg-begin" class="img-fluid" src={beginSvg} alt="imagem em svg do inicio" />
@@ -73,7 +124,7 @@ export default function Begin() {
             </main>
 
 
-        </main>
+        </main >
     );
 }
 

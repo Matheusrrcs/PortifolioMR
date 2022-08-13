@@ -4,7 +4,7 @@ import linkedin from "./assets/svg/linkedin.svg";
 import codepen from "./assets/svg/codepen.svg";
 import { useEffect } from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
 import Begin from './comp/begin/';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
 
-    AOS.init({ duration:1500, disable: "false", once: true })
+    AOS.init({ duration: 1500, disable: "false", once: true })
 
   }, [])
 

@@ -17,7 +17,7 @@ export default function Projects() {
         <div className="container">
           <div className="row body-projects">
             <div className="col-lg-4 card-projects">
-              <div className="group-text">
+              <a className="group-text" href="https://hospdata.herokuapp.com/" target="_blank">
                 <header>
 
 
@@ -26,7 +26,8 @@ export default function Projects() {
                       Hospdata
 
                     </h3>
-                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/Matheusrrcs/TCC-HospDat/" target="_blank">  <i class="fa-brands fa-github"></i></a>
+
 
                   </div>
 
@@ -45,13 +46,13 @@ export default function Projects() {
                     </ul>
                   </div>
                 </footer>
-              </div>
+              </a>
 
             </div>
 
             <div className="col-lg-4 card-projects">
 
-              <div className="group-text">
+              <a className="group-text" href="https://filipe-roberta.vercel.app/" target="_blank">
                 <header>
 
 
@@ -60,8 +61,8 @@ export default function Projects() {
                       Galeria
 
                     </h3>
-                    <i class="fa-brands fa-github"></i>
-
+                    <a href="https://github.com/Matheusrrcs/Flipe-Roberta" target="_blank"> <i class="fa-brands fa-github"></i>
+                    </a>
                   </div>
 
                   <div className="text">
@@ -82,7 +83,7 @@ export default function Projects() {
                 </footer>
 
 
-              </div>
+              </a>
 
             </div>
 
