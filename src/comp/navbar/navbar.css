@@ -42,7 +42,7 @@
 
 }
 
-.nav-link.active {
+.nav-link.active, .item.active {
     color: var(--azul) !important;
 }
 
@@ -73,7 +73,9 @@
         background: transparent;
     }
 
-
+    .nav-item{
+        animation: none;
+    }
 
     .nav-item:last-child {
         margin-top: 20px;

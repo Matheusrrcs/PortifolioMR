@@ -2,9 +2,9 @@ import "../contato/contato.css"
 
 export default function Contato() {
   return (
-    <section className="contato pt">
+    <section className="contato pt"  id='contato'>
 
-      <header className="container">
+      <header className="container" data-aos="fade-up">
 
 
         <div className="title">

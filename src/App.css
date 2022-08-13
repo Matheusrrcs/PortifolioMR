@@ -7,7 +7,6 @@
     width: 50px;
     position: fixed;
     top: 20%;
-
     left: 10px;
     right: auto;
     z-index: 10;
@@ -20,6 +19,8 @@
 .right {
     text-align: right;
 }
+
+
 
 .icons ul {
     list-style: none;
@@ -37,6 +38,7 @@
     height: 90px;
     margin: 0px auto;
     background-color: var(--cinza-escuro);
+
 }
 
 .icons ul::after {
@@ -46,12 +48,18 @@
     height: 90px;
     margin: 0px auto;
     background-color: var(--cinza-escuro);
+
 }
+
+
+
+
 
 
 @media (max-width:991px) {
     .icons {
         display: none;
     }
-    
+
 }
+ 

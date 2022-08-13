@@ -20,7 +20,19 @@
 
 .work-svg {
     max-width: 450px;
+    transition: var(--transition);
 }
+
+ .work-svg:hover  {
+    transform: rotate(45deg);
+    transition: var(--transition);
+} .work-svg.meio:hover  {
+    transform: rotate(-45deg);
+    transition: var(--transition);
+}
+
+
+ 
 
 .card-work {
     display: flex;
@@ -114,7 +126,7 @@
         margin: 0 10px;
     }
 
-    .work  .row.center {
+    .work .row.center {
         flex-direction: column-reverse !important;
     }
 }

@@ -4,15 +4,16 @@
 }
 
 .card-projects {
-   
- 
-    width:360px;
+    cursor: pointer;
+
+    width: 360px;
     height: 250px;
     border-radius: 0 15px 15px 0;
     background-color: #1A3F46;
     margin: 10px;
     box-shadow: var(--box-shadow);
     position: relative;
+    transition: var(--transition);
 }
 
 .group-text {
@@ -35,6 +36,11 @@
     background-color: var(--azul);
 }
 
+.card-projects:hover {
+    transform: translateY(-10px);
+    transition: var(--transition);
+}
+
 .projects .pt {
     padding: 50px 50px 0 0;
 }
@@ -44,15 +50,18 @@
     padding-bottom: 5px;
     justify-content: space-between;
 }
+
 .tec-color {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
 
 }
-.projects .title{
+
+.projects .title {
     margin-bottom: 40px;
 }
+
 .projects .text {
     padding: 0;
 }

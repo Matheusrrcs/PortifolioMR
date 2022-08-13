@@ -4,8 +4,8 @@ import tecMais from "../../assets/svg/tecMais.svg"
 
 export default function About() {
     return (
-        <section className="about pt">
-            <div className="container">
+        <section className="about pt" id="about">
+            <div className="container" data-aos="fade-up">
                 <div className="row">
                     <div className="col-lg-6">
                         <img id="svg-about" class="img-fluid" src={tec} alt="imagem em svg da experiencia" />
@@ -15,7 +15,7 @@ export default function About() {
                                 <div className="detalhes">
                                     <div className="container">
                                         <h2><i class="fa-brands fa-linkedin"></i> Mais detalhes</h2>
-                                        <a className="button">
+                                        <a className="button" href="https://www.linkedin.com/in/matheusrrcs/" target='_blank'>
                                             Ver mais
                                         </a>
                                     </div>

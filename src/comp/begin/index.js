@@ -7,30 +7,33 @@ import Work from "../work"
 import Projects from "../projects";
 import Contato from "../contato";
 
+
 export default function Begin() {
+
+
     return (
 
-        <main className="begin-body">
-       
-                <Navbar />
+        <main className="begin-body" id="begin">
 
-         
+            <Navbar />
+
+
 
             <main id="body-principal">
-                <section className="begin" id="begin">
+                <section className="begin" id="begin" >
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-6 align-self-center">
-                                <div className="Apr">
+                            <div className="col-lg-6 align-self-center" >
+                                <div className="Apr fade-up-text" >
                                     <h1>Oi, meu nome é</h1>
                                 </div>
-                                <div className="name">
+                                <div className="name fade-up-text ">
                                     <h2>Matheus Rosário.</h2>
                                 </div>
-                                <div className="adjective">
+                                <div className="adjective fade-up-text">
                                     <h3>Este é meu portifolio.</h3>
                                 </div>
-                                <div className="apresentation">
+                                <div className="apresentation fade-up-text">
                                     <p>
                                         Eu sou um desenvolvedor web (que ocasio nalmente  faz alguns
                                         trabalhos de designer), e estou focado na minha evoluação
@@ -38,7 +41,7 @@ export default function Begin() {
                                     </p>
                                 </div>
 
-                                <div className='code'>
+                                <div className='code fade-up-text'>
                                     <p>
                                         Digite <span>“SIM”</span> se quer saber mais sobre mim
                                     </p>
@@ -52,7 +55,7 @@ export default function Begin() {
 
                                 </div>
                             </div>
-                            <div className="col-lg-6 align-self-center">
+                            <div className="col-lg-6 align-self-center fade-up-text" >
                                 <img id="svg-begin" class="img-fluid" src={beginSvg} alt="imagem em svg do inicio" />
                             </div>
                         </div>

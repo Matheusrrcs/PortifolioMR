@@ -13,6 +13,9 @@
     margin: 15px;
 }
 
+.experience .title{
+    justify-content: center;
+}
 .moon {
     position: absolute;
     top: 30%;
