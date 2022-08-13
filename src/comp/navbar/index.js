@@ -188,7 +188,7 @@ export default function Experience() {
 
       <nav className={`navbar navbar-expand-lg fixed-top ${active}`} id="navbar">
         <div className="container">
-          <a className="navbar-brand" href="#">mrcs</a>
+          <a className="navbar-brand" href="/">mrcs</a>
           <button className="navbar-toggler" type="button" onClick={() => { activeAnim() }}>
 
 
