@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.714a703c.css",
-    "main.js": "/static/js/main.8792c11e.js",
+    "main.js": "/static/js/main.610a2478.js",
     "static/media/tecMais.svg": "/static/media/tecMais.9213aac9a1ae29a38b1393e119b390f6.svg",
-    "static/media/tec.svg": "/static/media/tec.4f7001c2d3ff5bf9d5c67adf44972372.svg",
+    "static/media/tec.svg": "/static/media/tec.6407fec05e2627af1fc85a68d68f897c.svg",
     "static/media/moon.png": "/static/media/moon.37759490a163b26c6b3f.png",
     "static/media/curriculoMRCS.pdf": "/static/media/curriculoMRCS.3af82bc85a3783712227.pdf",
     "static/media/begin.svg": "/static/media/begin.b7b6916bfdca23339040a216fbada195.svg",
@@ -16,10 +16,10 @@
     "static/media/codepen.svg": "/static/media/codepen.8f685ff2c7f176e586a6deb005a338cf.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.9feebeb680021cec6f3218c778ff1be7.svg",
     "main.714a703c.css.map": "/static/css/main.714a703c.css.map",
-    "main.8792c11e.js.map": "/static/js/main.8792c11e.js.map"
+    "main.610a2478.js.map": "/static/js/main.610a2478.js.map"
   },
   "entrypoints": [
     "static/css/main.714a703c.css",
-    "static/js/main.8792c11e.js"
+    "static/js/main.610a2478.js"
   ]
 }
