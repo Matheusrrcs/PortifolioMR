@@ -1,18 +1,19 @@
-<svg   viewBox="0 0 600 437" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="437" viewBox="0 0 600 437" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_81_54)">
 <rect x="72" y="65" width="496" height="333" rx="25" fill="url(#paint0_linear_81_54)" fill-opacity="0.9" shape-rendering="crispEdges"/>
 </g>
-<ellipse cx="124.5" cy="122" rx="22.5" ry="22" fill="#0F5A8B"/>
+<ellipse cx="124.5" cy="122" rx="22.5" ry="22" fill="#D8D8D9"/>
 <rect x="342" y="109" width="88" height="22" fill="#7D8B8F"/>
-<rect x="103" y="293" width="436" height="70" fill="#0D1626" fill-opacity="0.5"/>
-<rect x="103" y="184" width="88" height="22" fill="#7D8B8F"/>
-<rect x="103" y="246" width="77" height="22" fill="#0F5A8B"/>
-<rect x="491" y="109" width="48" height="22" fill="#0F5A8B"/>
+<rect x="245" y="109" width="88" height="22" fill="#379CCF"/>
+<rect x="232" y="221" width="88" height="22" fill="#7D8B8F"/>
+<rect x="105" y="325" width="88" height="22" transform="rotate(-90 105 325)" fill="#7D8B8F"/>
+<path d="M338 218.5H415V240.5H338V218.5Z" fill="#45B7F0"/>
+<path d="M281 281H358V303H281V281Z" fill="#379CCF"/>
+<rect x="491" y="109" width="48" height="22" fill="#379CCF"/>
 <rect x="439" y="109" width="43" height="22" fill="#7D8B8F"/>
-<rect x="104" y="215" width="43" height="22" fill="#7D8B8F"/>
-<rect x="281" y="317" width="23" height="22" rx="11" fill="#7D8B8F"/>
-<path d="M339 328C339 321.925 343.925 317 350 317H351C357.075 317 362 321.925 362 328C362 334.075 357.075 339 351 339H350C343.925 339 339 334.075 339 328Z" fill="#7D8B8F"/>
-<rect x="397" y="317" width="23" height="22" rx="11" fill="#7D8B8F"/>
+<path d="M232 184H275V206H232V184Z" fill="#7D8B8F"/>
+<path d="M302 184H345V206H302V184Z" fill="#7D8B8F"/>
+<path d="M377 184H420V206H377V184Z" fill="#7D8B8F"/>
 <defs>
 <filter id="filter0_d_81_54" x="0" y="0" width="600" height="437" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>

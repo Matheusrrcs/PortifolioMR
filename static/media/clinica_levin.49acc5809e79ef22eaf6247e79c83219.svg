@@ -1,16 +1,17 @@
-<svg  viewBox="0 0 600 437" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="437" viewBox="0 0 600 437" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_81_35)">
 <rect x="72" y="65" width="496" height="333" rx="25" fill="url(#paint0_linear_81_35)" fill-opacity="0.9" shape-rendering="crispEdges"/>
 </g>
-<ellipse cx="124.5" cy="122" rx="22.5" ry="22" fill="#C9721F"/>
-<rect x="342" y="109" width="88" height="22" fill="#7D8B8F"/>
-<rect x="103" y="293" width="436" height="70" fill="#0D1626" fill-opacity="0.5"/>
-<rect x="103" y="184" width="88" height="22" fill="#7D8B8F"/>
-<rect x="103" y="246" width="77" height="22" fill="#C9721F"/>
-<rect x="491" y="109" width="48" height="22" fill="#C9721F"/>
-<rect x="439" y="109" width="43" height="22" fill="#7D8B8F"/>
-<rect x="496" y="195" width="43" height="22" fill="#C9721F"/>
-<rect x="104" y="215" width="43" height="22" fill="#7D8B8F"/>
+<rect x="414" y="87" width="88" height="22" fill="#7D8B8F"/>
+<rect x="125" y="257" width="78" height="23" fill="#59D1E2"/>
+<path d="M115.5 167H203.5V189H115.5V167Z" fill="#7D8B8F"/>
+<rect x="130" y="210" width="77" height="22" fill="#7D8B8F"/>
+<rect x="511" y="87" width="43" height="22" fill="#7D8B8F"/>
+<rect width="88" height="22" transform="matrix(-1 0 0 1 396 87)" fill="#7D8B8F"/>
+<rect width="43" height="22" transform="matrix(-1 0 0 1 152 87)" fill="#59D1E2"/>
+<rect x="215" y="169" width="43" height="22" fill="#3C9D3C"/>
+<rect x="410" y="154" width="92" height="47" fill="#7D8B8F"/>
+<rect x="410" y="233" width="92" height="47" fill="#7D8B8F"/>
 <defs>
 <filter id="filter0_d_81_35" x="0" y="0" width="600" height="437" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
