@@ -12,7 +12,7 @@ export default function Experience() {
                 </div>
 
             </aside>
-            
+
             <div data-aos="fade-up">
 
                 <div className="title">
@@ -24,7 +24,7 @@ export default function Experience() {
 
                         <div className="col-lg-5 colunas left ">
                             <div className="subtitle">
-                                <h2> <span class="tec-color">Iniciação científica</span>  - Unijorge </h2>
+                                <h3>    Unijorge <span class="tec-color">Iniciação científica </span></h3>
                             </div>
 
                             <div className="date">
@@ -45,21 +45,17 @@ export default function Experience() {
                                 </p>
                             </div>
 
-
-
-
                         </div>
+
                         <div className="col-lg-1  colunas line">
                             <div className="line-v">
-
                             </div>
                         </div>
+
                         <div className="col-lg-5 colunas right">
 
-
-
                             <div className="subtitle">
-                                <h3>    Defensoria Publica - <span class="tec-color">Suporte tecnico</span>
+                                <h3>    Defensoria Publica  <span class="tec-color"> Suporte tecnico</span>
                                 </h3>
                             </div>
 
@@ -80,16 +76,46 @@ export default function Experience() {
                                 </p>
                             </div>
 
+                        </div>
 
+                        <div className="col-lg-5 colunas left ">
+                        </div>
 
+                        <div className="col-lg-1  colunas line">
+                            <div className="line-v">
+                            </div>
+                        </div>
 
+                        <div className="col-lg-5 colunas right mt-0">
+
+                            <div className="subtitle">
+                                <h3>    Infocraft   <span class="tec-color"> Desenvolvedor PHP</span>
+                                </h3>
+                            </div>
+
+                            <div className="date">
+                                <small>
+                                    Setembro 2022 - Presente. Tempo integral
+                                </small>
+
+                            </div>
+                            <div className="text">
+                                <p>
+                                Trabalho no desenvolvimento de um sistema de gestão educacional usando JavaScript, CSS, HTML, Laravel  PHP e ScriptCase. 
+                                </p>
+                                <p>
+
+                                Faço manutenção em banco de dados e criação de lading pages
+                                </p>
+                            </div>
 
                         </div>
 
 
                     </div>
                 </div>
-
+               
+                 
             </div>
         </section>
     );

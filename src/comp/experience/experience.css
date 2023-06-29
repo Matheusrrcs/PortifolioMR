@@ -36,7 +36,7 @@
 
 }
 
-
+ 
 
 .line-v {
     width: 1px;
@@ -66,6 +66,8 @@
     margin-top: 200px;
     margin-right: 10px;
 }
+
+ 
 
 .colunas.right {
     align-items: start !important;

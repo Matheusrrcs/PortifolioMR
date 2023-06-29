@@ -1,7 +1,7 @@
-import "../work/work.css"
-import burn from "../../assets/svg/burn.svg"
-import dream from "../../assets/svg/dream.svg"
-import mg from "../../assets/svg/mg.svg"
+import "../work/work.css";
+import breno from "../../assets/svg/breno_alegria.svg";
+import pai from "../../assets/svg/pai_do_elojob.svg";
+import levin from "../../assets/svg/clinica_levin.svg";
 
 export default function work() {
   return (
@@ -17,17 +17,15 @@ export default function work() {
           <div className="row">
 
             <div className="col-lg-6 card-work right svg">
-              <img className="work-svg img-fluid" src={burn} />
+              <img className="work-svg img-fluid" src={levin} />
             </div>
 
             <div className="col-lg-5 card-work right txt">
               <div className="subtitle">
-                <h3>Elojob Burn</h3>
+                <h3>Clinica Levin</h3>
               </div>
               <div className="text right">
-                Um website que oferece serviços de elojob , basicamente  um jogador
-                paga para que outro jogador  coloque sua conta em um elo
-                (Classificação) mais alta. Foi um trabalho freelancer na qual fui o desenvolvedor e o web designer.
+                Um website de uma clinica de nutrologia, que tem um foco em venda de alguns produtos e serviços pelo site, além da apresentação da empresa como um todo
               </div>
               <div className="tec-list">
                 <ul className="tec-color">
@@ -35,22 +33,25 @@ export default function work() {
                   <li >CSS</li>
                   <li >JavaScript</li>
                   <li >Bootstrap</li>
+                  <li >PHP</li>
+                  <li >Wordpress</li>
                 </ul>
               </div>
-              <a className="button" href="https://www.elojobburn.com" target="_blank">
+              <a className="button" href="https://www.clinicalevin.com.br/" target="_blank">
                 Ver site
               </a>
             </div>
 
           </div>
+
 
           <div className="row center">
             <div className="col-lg-5 card-work left txt">
               <div className="subtitle">
-                <h4>Elojob Dream</h4>
+                <h4>Pai do elojob</h4>
               </div>
               <div className="text left">
-                Um website que oferece serviços de elojob. Também um trabalho freelancer na qual fui o desenvolvedor e o web designer.
+                Um website que oferece serviços de elojob. Um trabalho freelancer na qual fui o desenvolvedor e o web designer.
               </div>
               <div className="tec-list">
                 <ul className="tec-color">
@@ -58,31 +59,36 @@ export default function work() {
                   <li >CSS</li>
                   <li >JavaScript</li>
                   <li >Bootstrap</li>
+                  <li >Laravel</li>
+                  <li >MySql</li>
+                  <li >PHP</li>
                 </ul>
               </div>
-              <a className="button" href="https://www.elojobdream.com" target="_blank">
+              <a className="button" href="https://www.paidoelojob.com.br" target="_blank">
                 Ver site
               </a>
             </div>
             <div className="col-lg-6 card-work svg">
-              <img className="work-svg meio  img-fluid" src={dream} />
+              <img className="work-svg meio  img-fluid" src={pai} />
             </div>
           </div>
 
+
+ 
 
 
           <div className="row">
 
             <div className="col-lg-6 card-work right svg">
-              <img className="work-svg img-fluid" src={mg} />
+              <img className="work-svg img-fluid" src={breno} />
             </div>
 
             <div className="col-lg-5 card-work right txt">
               <div className="subtitle">
-                <h5>Mg contabilidade</h5>
+                <h5>Breno Alegria – Advocacia e Consultoria</h5>
               </div>
               <div className="text right">
-                Um website que gera boletos e gerencia os dados cadastrados.  trabalho freelancer, desenvolvedor / web designer.
+                Um website para um escritorio de advocacia, especializado em processos éticos
               </div>
               <div className="tec-list">
                 <ul className="tec-color">
@@ -90,10 +96,11 @@ export default function work() {
                   <li >CSS</li>
                   <li >JavaScript</li>
                   <li >Bootstrap</li>
-                  <li >React</li>
+                  <li >Wordpress</li>
+                  <li >PHP</li>
                 </ul>
               </div>
-              <a className="button" href="https://formulario-mg.herokuapp.com" target="_blank">
+              <a className="button" href="https://brenoalegria.com.br/" target="_blank">
                 Ver site
               </a>
             </div>
