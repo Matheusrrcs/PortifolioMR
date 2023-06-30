@@ -61,7 +61,7 @@ export default function Experience() {
 
                             <div className="date">
                                 <small>
-                                    Setembro 2020 - Presente. Estágio
+                                    Setembro 2020 - 2022. Estágio
                                 </small>
 
                             </div>

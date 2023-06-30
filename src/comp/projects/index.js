@@ -31,7 +31,7 @@ export default function Projects() {
                   </div>
 
                   <div className="text">
-                    <p>Website que oferece serviços de elojob , basicamente um jogador paga para que outro jogador coloque sua conta em um elo mais alt. Trabalho freelancer, fui o desenvolvedor e o web designer.</p>
+                    <p>Website que oferece serviços de elojob. Trabalho freelancer, fui o desenvolvedor e o web designer.</p>
                   </div>
                 </header>
                 <footer>

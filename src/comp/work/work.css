@@ -85,7 +85,10 @@
 
 
 @media (max-width:991px) {
-
+    .work-svg {
+        max-width: inherit;
+        transition: var(--transition);
+    }
     .work {
         padding: 100px 10px 0 10px;
     }
@@ -98,7 +101,9 @@
     .work .title::after {
         margin-top: 20px;
     }
-
+    .card-work{
+        text-align: left;
+    }
     .card-work.right.txt {
         align-items: start;
 
@@ -109,6 +114,14 @@
         text-align: left;
         padding-left: 10px;
     }
+    .experience-row{
+        flex-direction: column-reverse;
+    }
+
+    .colunas.right {
+        margin-top: 10px;
+    
+      }
 
     .work .subtitle,
     .work .tec-color {
