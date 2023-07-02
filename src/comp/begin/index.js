@@ -69,9 +69,7 @@ export default function Begin() {
                                 </div>
                                 <div className="apresentation fade-up-text">
                                     <p>
-                                        Eu sou um desenvolvedor web (que ocasio nalmente  faz alguns
-                                        trabalhos de designer), e estou focado na minha evoluação
-                                        profissional.
+                                    Sou um profissional especializado em desenvolvimento web, com habilidades complementares em design. Estou empenhado em aprimorar constantemente minha trajetória profissional.
                                     </p>
                                 </div>
 

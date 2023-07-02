@@ -35,13 +35,16 @@ export default function About() {
                         </div>
                         <div className="text">
                             <p>
-                                Olá! Meu nome é Matheus e gosto de criar coisas para  a internet. Meu interesse em desenvolvimento web começou em 2018, quando na faculdade observei um dos trabalhos que meu colega realizou e fiquei apaixonado. Depois tentei editar sites já prontos e esse foi o começo da minha jornada de dedicação e estudo.
-                            </p>
-                            <p>
-                                Eu sempre costumo dizer que acredito que qualquer habilidade possa ser alcançada através do estudo e trabalho persistentes e levo isso comigo para todos os desafios que encontro. Me considero curioso e apaixonado por programação pois nela encontrei um forma de poder criar tudo que eu sempre quis.
+                                Olá! Meu nome é Matheus e dedico-me à criação de soluções para o ambiente online. Meu interesse pelo desenvolvimento web despertou em 2018, enquanto observava um projeto realizado por um colega durante a faculdade. Desde então, mergulhei na edição de websites existentes, marcando o início de minha jornada dedicada ao estudo e aperfeiçoamento.
 
                             </p>
-                            <p>Avançando para hoje, foquei na criação de projetos pessoais e alguns trabalhos freelancers, almejando sempre a minha evolução como profissional.</p>
+                            <p>
+
+                                Acredito sinceramente que todas as habilidades podem ser adquiridas por meio de estudo persistente e trabalho árduo, princípio que aplico a todos os desafios que enfrento. Sou movido pela curiosidade e apaixonado pela programação, pois encontrei nela uma maneira de materializar tudo aquilo que sempre desejei criar.
+                            </p>
+                            <p>
+                                Atualmente, estou concentrado na execução de projetos pessoais e na realização de trabalhos freelance, buscando constantemente o aprimoramento de minhas competências profissionais.
+                            </p>
                         </div>
                     </div>
                 </div>

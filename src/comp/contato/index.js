@@ -2,7 +2,7 @@ import "../contato/contato.css"
 
 export default function Contato() {
   return (
-    <section className="contato pt"  id='contato'>
+    <section className="contato pt" id='contato'>
 
       <header className="container" data-aos="fade-up">
 
@@ -19,7 +19,8 @@ export default function Contato() {
 
               <div className="text">
                 <p>
-                  Estou interessado em oportunidades de trabalho. No entanto, se você tiver outra solicitação ou pergunta, não hesite em mandar um email.
+
+                  Estou aberto a oportunidades de trabalho. No entanto, caso haja qualquer outra solicitação ou pergunta, sinta-se à vontade para entrar em contato por meio de e-mail.
                 </p>
               </div>
             </div>
