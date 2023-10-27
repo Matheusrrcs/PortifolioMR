@@ -89,11 +89,7 @@ export default function Experience() {
                         <div className="col-lg-5 colunas right mt-0">
 
                             <div className="subtitle">
-<<<<<<< HEAD
                                 <h3>    Infocraft   <span class="tec-color"> Desenvolvedor Frontend </span>
-=======
-                                <h3>    Infocraft   <span class="tec-color"> Desenvolvedor Frontend</span>
->>>>>>> 49fb89ab47202667dff72652ebec5e5fa6ec3148
                                 </h3>
                             </div>
 
@@ -105,7 +101,7 @@ export default function Experience() {
                             </div>
                             <div className="text">
                                 <p>
-                                Trabalho no desenvolvimento e sustentação de sistemas de gestão educacional usando JavaScript, React, CSS, HTML, Laravel, PHP, AngularJS, ScriptCase, GitLab e Metodologia Scrum
+                                Trabalho no desenvolvimento e sustentação de sistemas de gestão educacional usando JavaScript, React, CSS, HTML, Laravel, PHP, AngularJS, ScriptCase, GitLab, Metodologia Scrum
                                 </p>
                                 <p>
 
