@@ -105,11 +105,7 @@ export default function Experience() {
                             </div>
                             <div className="text">
                                 <p>
-<<<<<<< HEAD
                                 Trabalho no desenvolvimento e sustentação de sistemas de gestão educacional usando JavaScript, React, CSS, HTML, Laravel, PHP, AngularJS, ScriptCase, GitLab e Metodologia Scrum
-=======
-                                Trabalho no desenvolvimento de um sistema de gestão educacional usando JavaScript, CSS, HTML, Laravel  PHP, AngularJS e ScriptCase. 
->>>>>>> 49fb89ab47202667dff72652ebec5e5fa6ec3148
                                 </p>
                                 <p>
 
