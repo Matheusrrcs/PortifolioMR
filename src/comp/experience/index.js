@@ -89,7 +89,7 @@ export default function Experience() {
                         <div className="col-lg-5 colunas right mt-0">
 
                             <div className="subtitle">
-                                <h3>    Infocraft   <span class="tec-color"> Desenvolvedor PHP</span>
+                                <h3>    Infocraft   <span class="tec-color"> Desenvolvedor</span>
                                 </h3>
                             </div>
 
@@ -101,7 +101,7 @@ export default function Experience() {
                             </div>
                             <div className="text">
                                 <p>
-                                Trabalho no desenvolvimento de um sistema de gestão educacional usando JavaScript, CSS, HTML, Laravel  PHP e ScriptCase. 
+                                Trabalho no desenvolvimento de um sistema de gestão educacional usando JavaScript, CSS, HTML, Laravel  PHP, AngularJS e ScriptCase. 
                                 </p>
                                 <p>
 
