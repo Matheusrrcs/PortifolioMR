@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.f328b7aa.css",
-    "main.js": "/static/js/main.f7025c35.js",
+    "main.js": "/static/js/main.66a719e5.js",
     "static/media/tecMais.svg": "/static/media/tecMais.9213aac9a1ae29a38b1393e119b390f6.svg",
-    "static/media/tec.svg": "/static/media/tec.6407fec05e2627af1fc85a68d68f897c.svg",
+    "static/media/tec.svg": "/static/media/tec.49d2639a1f496c709bfd82f99acbd39d.svg",
     "static/media/moon.png": "/static/media/moon.37759490a163b26c6b3f.png",
     "static/media/curriculoMRCS.pdf": "/static/media/curriculoMRCS.3af82bc85a3783712227.pdf",
     "static/media/begin.svg": "/static/media/begin.b7b6916bfdca23339040a216fbada195.svg",
     "static/media/Anurati-Regular.otf": "/static/media/Anurati-Regular.ada0eaa4927bd5989165.otf",
-    "static/media/pai_do_elojob.svg": "/static/media/pai_do_elojob.5d19657f8452658f6b608c7ef376d787.svg",
-    "static/media/breno_alegria.svg": "/static/media/breno_alegria.6d538681b20a746dbb9a6fb67b3cffe3.svg",
-    "static/media/clinica_levin.svg": "/static/media/clinica_levin.49acc5809e79ef22eaf6247e79c83219.svg",
+    "static/media/pai_do_elojob.svg": "/static/media/pai_do_elojob.cc3a6445b44e7a47c4931add04df5519.svg",
+    "static/media/breno_alegria.svg": "/static/media/breno_alegria.090e05cfcfd6de620fb63104bf9f3e63.svg",
+    "static/media/clinica_levin.svg": "/static/media/clinica_levin.38bbfb767b11d2aca6ea392863df3d76.svg",
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.4571991fa8fb98c8c0d7aa5791c5b704.svg",
     "static/media/codepen.svg": "/static/media/codepen.8f685ff2c7f176e586a6deb005a338cf.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.9feebeb680021cec6f3218c778ff1be7.svg",
     "main.f328b7aa.css.map": "/static/css/main.f328b7aa.css.map",
-    "main.f7025c35.js.map": "/static/js/main.f7025c35.js.map"
+    "main.66a719e5.js.map": "/static/js/main.66a719e5.js.map"
   },
   "entrypoints": [
     "static/css/main.f328b7aa.css",
-    "static/js/main.f7025c35.js"
+    "static/js/main.66a719e5.js"
   ]
 }
