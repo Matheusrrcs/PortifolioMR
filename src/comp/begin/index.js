@@ -6,6 +6,7 @@ import Experience from "../experience"
 import Work from "../work"
 import Projects from "../projects";
 import Contato from "../contato";
+import Suporte from "../support";
 import { useEffect, useState } from "react";
 import anime from "animejs";
 
@@ -114,6 +115,7 @@ export default function Begin() {
                 <Experience />
                 <Work />
                 <Projects />
+                <Suporte />
                 <Contato />
 
                 <footer className="text">

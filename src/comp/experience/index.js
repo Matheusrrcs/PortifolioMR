@@ -29,19 +29,25 @@ export default function Experience() {
 
                             <div className="date">
                                 <small>
-                                    Setembro 2020 - Presente. Estágio
+                                    Setembro 2021 - Setembro 2022.
                                 </small>
 
                             </div>
                             <div className="text">
                                 <p>
-                                    Construção de Aplicativo como estratégia para ensino de Cálculo Diferencial e Integral
+                                    Desenvolvimento de um aplicativo educacional como parte de uma
+                                    estratégia inovadora para o ensino de Cálculo Diferencial e Integral,
+                                    com foco em interação e aprendizado prático;
                                 </p>
                                 <p>
-                                    Construção de um aplicativo que possa ser usado como um
-                                    auxílio para profissionais da área de educação no ensino de
-                                    conteúdos mais abrangentes nas disciplinas de Cálculo Diferencial
-                                    e Integral
+                                    Colaboração no desenvolvimento de um jogo educacional utilizando
+                                    Unity, contribuindo com a implementação de mecânicas de jogo, testes
+                                    e ajustes técnicos para garantir uma experiência fluida e envolvente;
+                                </p>
+                                <p>
+                                    Criação de assets visuais (sprites, animações e interfaces) para o jogo,
+                                    garantindo que os elementos gráficos fossem coesos e visivelmente
+                                    atraentes, alinhados ao conceito pedagógico do projeto.
                                 </p>
                             </div>
 
@@ -51,6 +57,58 @@ export default function Experience() {
                             <div className="line-v">
                             </div>
                         </div>
+                        <div className="col-lg-5 colunas right mt-0">
+
+                            <div className="subtitle">
+                                <h3>    Infocraft   <span class="tec-color"> Desenvolvedor Frontend </span>
+                                </h3>
+                            </div>
+
+                            <div className="date">
+                                <small>
+                                    Setembro 2022 - Presente. Tempo integral
+                                </small>
+
+                            </div>
+                            <div className="text">
+                                <p>
+                                    Desenvolvimento de um sistema de gestão educacional utilizando
+                                    tecnologias como HTML, CSS, JavaScript, PHP, Laravel e ScriptCase;
+                                </p>
+                                <p>
+                                    Participação em projetos de desenvolvimento de software, trabalhando
+                                    em equipe e colaborando em todas as fases do ciclo de vida do projeto;
+                                </p>
+                                <p>
+                                    Criação e manutenção de bancos de dados MySQL e PostgreSQL;
+                                </p>
+                                <p>
+                                    Integração de APIs externas para consumo de serviços e dados;
+                                </p>
+                                <p>
+                                    Utilização de ferramentas de controle de versão como Git;
+                                </p>
+                                <p>
+                                    Criação de novos templates e gerenciamento de toda a parte visual do
+                                    sistema;
+                                </p>
+                                <p>
+                                    Documentação de novas funcionalidades e funções do sistema,
+                                    garantindo a clareza e a rastreabilidade do projeto para o time
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div className="col-lg-5 colunas left ">
+                        </div>
+
+                        <div className="col-lg-1  colunas line">
+                            <div className="line-v">
+                            </div>
+                        </div>
+
+
 
                         <div className="col-lg-5 colunas right">
 
@@ -67,55 +125,28 @@ export default function Experience() {
                             </div>
                             <div className="text">
                                 <p>
-                                    Manutenção de software e hardware
+                                    Manutenção e solução de problemas de software e hardware,
+                                    garantindo o pleno funcionamento dos sistemas e equipamentos dos
+                                    usuários, identificando e resolvendo problemas de forma rápida e
+                                    eficiente;
                                 </p>
                                 <p>
-
-                                    Testes de funcionamento e acompanhamento de desempenho
-                                    dos recursos técnicos.
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <div className="col-lg-5 colunas left ">
-                        </div>
-
-                        <div className="col-lg-1  colunas line">
-                            <div className="line-v">
-                            </div>
-                        </div>
-
-                        <div className="col-lg-5 colunas right mt-0">
-
-                            <div className="subtitle">
-                                <h3>    Infocraft   <span class="tec-color"> Desenvolvedor Frontend </span>
-                                </h3>
-                            </div>
-
-                            <div className="date">
-                                <small>
-                                    Setembro 2022 - Presente. Tempo integral
-                                </small>
-
-                            </div>
-                            <div className="text">
-                                <p>
-                                Trabalho no desenvolvimento e sustentação de sistemas de gestão educacional usando JavaScript, React, CSS, HTML, Laravel, PHP, AngularJS, ScriptCase, GitLab, Metodologia Scrum.
+                                    Interação direta com usuários para entender suas necessidades e
+                                    problemas técnicos, fornecendo soluções claras e de fácil compreensão;
                                 </p>
                                 <p>
-
-                                Faço manutenção em banco de dados e criação de lading pages
+                                    Configuração e manutenção de redes, garantindo a conectividade e a
+                                    segurança de sistemas locais e remotos, além de configurar e ajustar
+                                    equipamentos de rede para maximizar a performance.
                                 </p>
                             </div>
 
                         </div>
-
 
                     </div>
                 </div>
-               
-                 
+
+
             </div>
         </section>
     );

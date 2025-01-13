@@ -1,7 +1,9 @@
 import "../work/work.css";
 import breno from "../../assets/svg/breno_alegria.svg";
-import pai from "../../assets/svg/pai_do_elojob.svg";
+import casa_conceito from "../../assets/svg/casa_conceito.svg";
 import levin from "../../assets/svg/clinica_levin.svg";
+import felipe_roth from "../../assets/svg/felipe_roth.svg";
+import herois_mente from "../../assets/svg/herois_da_mente.svg";
 
 export default function work() {
   return (
@@ -14,6 +16,95 @@ export default function work() {
         </div>
 
         <div className="container">
+
+
+
+        <div className="row center">
+            <div className="col-lg-5 card-work left txt">
+              <div className="subtitle">
+                <h4>Casa Conceito</h4>
+              </div>
+              <div className="text left">
+                Um website sobre um evento de arquitetura e design de interiores realizado em Salvador, Bahia. O site destaca a história do evento desde sua criação em 2018
+              </div>
+              <div className="tec-list">
+                <ul className="tec-color">
+                  <li >HTML</li>
+                  <li >CSS</li>
+                  <li >JavaScript</li>
+                  <li >Bootstrap</li>
+                  <li >PHP</li>
+                  <li >Wordpress</li>
+                </ul>
+              </div>
+              <a className="button" href="https://mostracasasconceito.com.br/" target="_blank">
+                Ver site
+              </a>
+            </div>
+            <div className="col-lg-6 card-work svg">
+              <img className="work-svg meio  img-fluid" src={casa_conceito} />
+            </div>
+          </div>
+          
+          <div className="row">
+
+            <div className="col-lg-6 card-work right svg">
+              <img className="work-svg img-fluid" src={herois_mente} />
+            </div>
+
+            <div className="col-lg-5 card-work right txt">
+              <div className="subtitle">
+                <h3>Heróis da Mente</h3>
+              </div>
+              <div className="text right">
+               Programa para estimular as funções executivas em crianças de contextos vulneráveis
+              </div>
+              <div className="tec-list">
+                <ul className="tec-color">
+                  <li >HTML</li>
+                  <li >CSS</li>
+                  <li >JavaScript</li>
+                  <li >Bootstrap</li>
+                  <li >PHP</li>
+                  <li >Wordpress</li>
+                </ul>
+              </div>
+              <a className="button" href="https://heroisdamente.com.br/" target="_blank">
+                Ver site
+              </a>
+            </div>
+
+          </div>
+
+
+          <div className="row center">
+            <div className="col-lg-5 card-work left txt">
+              <div className="subtitle">
+                <h4>Dr. Felipe Roth</h4>
+              </div>
+              <div className="text left">
+                Um website sobre um Ortopedista, Traumatologista, Cirurgião de Mão e Microcirurgião. Consagrado com diversos prêmios em microcirurgia, atuante no estado do Mato Grosso do Sul.
+              </div>
+              <div className="tec-list">
+                <ul className="tec-color">
+                  <li >HTML</li>
+                  <li >CSS</li>
+                  <li >JavaScript</li>
+                  <li >Bootstrap</li>
+                  <li >PHP</li>
+                  <li >Wordpress</li>
+                </ul>
+              </div>
+              <a className="button" href="https://feliperoth.com.br/" target="_blank">
+                Ver site
+              </a>
+            </div>
+            <div className="col-lg-6 card-work svg">
+              <img className="work-svg meio  img-fluid" src={felipe_roth} />
+            </div>
+          </div>
+
+
           <div className="row">
 
             <div className="col-lg-6 card-work right svg">
@@ -44,50 +135,15 @@ export default function work() {
 
           </div>
 
-
-          <div className="row center">
-            <div className="col-lg-5 card-work left txt">
-              <div className="subtitle">
-                <h4>Pai do elojob</h4>
-              </div>
-              <div className="text left">
-                Um website que oferece serviços de elojob. Um trabalho freelancer na qual fui o desenvolvedor e o web designer.
-              </div>
-              <div className="tec-list">
-                <ul className="tec-color">
-                  <li >HTML</li>
-                  <li >CSS</li>
-                  <li >JavaScript</li>
-                  <li >Bootstrap</li>
-                  <li >Laravel</li>
-                  <li >MySql</li>
-                  <li >PHP</li>
-                </ul>
-              </div>
-              <a className="button" href="https://www.paidoelojob.com.br" target="_blank">
-                Ver site
-              </a>
-            </div>
-            <div className="col-lg-6 card-work svg">
-              <img className="work-svg meio  img-fluid" src={pai} />
-            </div>
-          </div>
-
-
  
+          <div className="row center">
 
-
-          <div className="row">
-
-            <div className="col-lg-6 card-work right svg">
-              <img className="work-svg img-fluid" src={breno} />
-            </div>
-
-            <div className="col-lg-5 card-work right txt">
+            
+            <div className="col-lg-5 card-work left txt">
               <div className="subtitle">
                 <h5>Breno Alegria – Advocacia e Consultoria</h5>
               </div>
-              <div className="text right">
+              <div className="text left">
                 Um website para um escritorio de advocacia, especializado em processos éticos
               </div>
               <div className="tec-list">
@@ -104,8 +160,13 @@ export default function work() {
                 Ver site
               </a>
             </div>
+            <div className="col-lg-6 card-work left svg">
+              <img className="work-svg img-fluid" src={breno} />
+            </div>
 
           </div>
+
+
         </div>
 
       </div>
