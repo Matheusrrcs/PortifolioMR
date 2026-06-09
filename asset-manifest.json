@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortifolioMR/static/css/main.7f875a0b.css",
-    "main.js": "/PortifolioMR/static/js/main.2e39adf3.js",
+    "main.js": "/PortifolioMR/static/js/main.fc294b94.js",
     "static/media/tecMais.svg": "/PortifolioMR/static/media/tecMais.9213aac9a1ae29a38b1393e119b390f6.svg",
     "static/media/tec.svg": "/PortifolioMR/static/media/tec.49d2639a1f496c709bfd82f99acbd39d.svg",
     "static/media/moon.png": "/PortifolioMR/static/media/moon.37759490a163b26c6b3f.png",
@@ -18,10 +18,10 @@
     "static/media/codepen.svg": "/PortifolioMR/static/media/codepen.8f685ff2c7f176e586a6deb005a338cf.svg",
     "static/media/linkedin.svg": "/PortifolioMR/static/media/linkedin.9feebeb680021cec6f3218c778ff1be7.svg",
     "main.7f875a0b.css.map": "/PortifolioMR/static/css/main.7f875a0b.css.map",
-    "main.2e39adf3.js.map": "/PortifolioMR/static/js/main.2e39adf3.js.map"
+    "main.fc294b94.js.map": "/PortifolioMR/static/js/main.fc294b94.js.map"
   },
   "entrypoints": [
     "static/css/main.7f875a0b.css",
-    "static/js/main.2e39adf3.js"
+    "static/js/main.fc294b94.js"
   ]
 }
